@@ -1,0 +1,75 @@
+﻿body {
+    background-color:#e8e7e7;
+}
+#Info {
+   background-color: rgba(0, 46, 93, 0.8);
+   color:white;
+   position:absolute;
+   z-index:99;
+}
+
+.inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.tittle {
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+    color: #002E5D;
+    font-size: 63px !important;
+}
+.contact {
+    color: #002E5D;
+    font-size: 23px !important;
+}
+ 
+h1 {
+    font-size: 63px !important;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 170px;
+}
+
+    .btn:focus, .btn:active:focus, .btn.active:focus {
+        outline: 0 none;
+    }
+
+.btn-primary {
+    background: #002e5d;
+    color: #ffffff;
+}
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+        background: #33a6cc;
+    }
+
+    .btn-primary:active, .btn-primary.active {
+        background: #007299;
+        box-shadow: none;
+    }
+
+.btn-3 {
+    background: red;
+    border: 1px solid red;
+    box-shadow: 0px 2px 0 red, 2px 4px 6px red;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 150ms linear;
+}
+
+    .btn-3:hover {
+        background: red;
+        border: 1px solid white;
+        box-shadow: 1px 1px 2px white;
+        color: darkred;
+        text-decoration: none;
+        text-shadow: -1px -1px 0 red;
+        transition: all 250ms linear;
+    }
